@@ -31,9 +31,16 @@ namespace Reflection
                 typeof(string) , typeof(string) 
             });
 
-
             // invoking a constructor with custom parameters 
             var cust = customerCtor.Invoke(new string[] { "123", "dinith" });
+
+
+
+            // getting constructor without parameters 
+            var noParamCtror = type.GetConstructor(Type.EmptyTypes);
+
+            // invoking constructor without parameters 
+            var cust2 = noParamCtror.Invoke(null);
 
             privateProp.SetValue(cust, "Dinith11");
 
