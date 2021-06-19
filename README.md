@@ -9,3 +9,10 @@ The best of it is you can add a **your own method** to any 3rd paty library clas
 
 ## StringManipulations
 This repo has the ways of doing diffrent manipulations to the strings . 
+
+## Reflections 
+through the reflections we can interact with the propertese and methods of a class in another namespace in a more dynamic way . 
+There we can get a list of all the methods and propertese ans 
+ - invoke the methods 
+ - read the propetese 
+ - update the propertese 
